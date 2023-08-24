@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main id="coitainer">
+        <section id="img">
+            <img src="ilustracao.svg" alt="imagem de ilustracao">
+        <section>  
+        
+        <section id="Calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calculadora - IMC
+                </h1>
+
+                <div class="input-box">
+                    <label for="weigth">
+                        Seu Peso
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging" style="color: #6c63ff;"></i>
+                        <input type="number" id="weigth" required>
+                        <span>
+                            Kg
+                        </span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="heigth">
+                       Sua Altura
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler" style="color: #6c63ff;"></i>
+                        <input type="number" id="heigth" required>
+                        <span>
+                            Metros
+                        </span>
+                    </div>
+                </div>
+
+                <button id="calculete">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="infos">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="valuue"></span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="more_infp">
+                    
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
+                        Mais Informações Sobreo IMC
+                        <i class="fa-solid fa-link" style="color: #6c63ff;"></i>"
+                    </a>
+                </div>
+                    
+            </div>
+        </section>  
+</body>
+</html>
